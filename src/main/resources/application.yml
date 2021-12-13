@@ -5,8 +5,8 @@ spring:
   data:
     cassandra:
       keyspace-name: main
-      username: xRdpxRZOSMBEGlNvKdnyUmkz
-      password: nMBmUOHWjCrjZyQ4yOOu.TWJOHH4y0q0EHCNqwtEZW.eY8vHpjpMZXdr12e7M9uE.Q2YmI9Iz9MJAnAA9WA_JNBvznHX2U-wsa8IX0ZfHv4ZTF4cwP75lWO6Jckat4No
+      username: USERNAME
+      password: PASSWORD
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -15,14 +15,14 @@ spring:
         init-query-timeout: 10s
 
 datadump.location:
-  author: D:\temp\minimal\test-authors.txt
-  works: D:\temp\minimal\test-works.txt
+  author: ABSOLUTE_AUTHOR_FILE_PATH
+  works: ABSOLUTE_WORKS_FILE_PATH
 
 datastax.astra:
   secure-connect-bundle: secure-connect.zip
 
 astra.db:
-  id: f3fda2e3-88bd-45af-9224-9f79313dbcd3-1
-  region: us-east1
+  id: ID
+  region: REGION
   keypspace: main
-  application.token: AstraCS:xRdpxRZOSMBEGlNvKdnyUmkz:a4391b5f0f366bd7218cef0c438e2d6531c537939a5e285abc2822bfe97d1190
+  application.token: APP_TOKEN
