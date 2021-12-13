@@ -8,7 +8,7 @@
 		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.obasekiosa</groupId>
+	<groupId>io.github.obasekiosa</groupId>
 	<artifactId>bookspace-data-loader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookspace-data-loader</name>
